@@ -4,7 +4,11 @@ h1 {
     font-weight: bold;
     font-style: oblique;
 }
-
+body {
+    background-image: url(/opdracht_4.1/opdracht_4.1/img/Foto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 h2 {
  Color: #0000ff;
 font-size: 20px;
@@ -28,4 +32,9 @@ P:first-of-type{
 a {
 color: #8a2be2;
 text-decoration: none;
+}
+article {
+    border: 2px dotted white;
+    border-radius: 20px;
+border-left: 4px dotted white;
 }
