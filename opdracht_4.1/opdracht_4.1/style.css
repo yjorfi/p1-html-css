@@ -5,9 +5,10 @@ h1 {
     font-style: oblique;
 }
 body {
-    background-image: url(/opdracht_4.1/opdracht_4.1/img/Foto.jpg);
+    background-image: url(https://w0.peakpx.com/wallpaper/1002/489/HD-wallpaper-doodle-art-game-controller-art.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    background-position: center;
 }
 h2 {
  Color: #0000ff;
@@ -36,5 +37,4 @@ text-decoration: none;
 article {
     border: 2px dotted white;
     border-radius: 20px;
-border-left: 4px dotted white;
-}
+border-left: 4px dotted}
