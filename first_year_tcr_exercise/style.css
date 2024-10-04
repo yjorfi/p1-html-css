@@ -8,12 +8,15 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
+  min-height: 83.3vh;
+  position: relative;
   
 }
 
 nav {
+  height: 17vh;
   display: flex;
-  width: 100%;
+  width: 100vw;
   padding: 2rem;
   min-height: 5vh;
   align-items: center;
@@ -22,6 +25,7 @@ nav {
   background: #00a8c7;
   justify-content: space-between;
   position: fixed;
+  top:0;
 }
 nav ul {
   display: flex;
@@ -52,6 +56,7 @@ nav img {
 h1 {
   font-weight: bold;
   color: rgb(0, 0, 0);
+  margin-top: 10rem;
 }
 p { 
 color: rgb(0, 0, 0);
@@ -67,8 +72,9 @@ label {color: white;}
 }
 footer {
   display: flex;
-  position: absolute;
-  width: 100%;
+   position: absolute;
+  bottom: 0;
+  width: 100vw;
   height: 75px;
   padding: 2rem;
   min-height: 5vh;
@@ -85,3 +91,9 @@ nav li {
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
 }
+#white {
+  font-weight: bold;
+  color: rgb(235, 226, 226);
+  margin-top: 0;
+}
+label {color: black;}
