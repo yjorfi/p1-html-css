@@ -47,7 +47,7 @@ nav img {
 #unique-header {
   position:absolute;
   color:#ffffff;
-  top:50%;
+  top:30%;
   left:50%;
   font-weight: bold;
   text-align: center;
@@ -96,4 +96,33 @@ nav li {
   color: rgb(235, 226, 226);
   margin-top: 0;
 }
-label {color: black;}
+label {
+  color: black;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.8rem 1rem;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #E9E9E9;
+  min-width: 20vw;
+  z-index: 1;
+  box-shadow: 0rem 0.5rem 1rem 0rem;
+}
+.dropdown-content a {
+color: #00a8c7;
+padding: 0.8rem 1rem;
+display: block;
+text-align: left;
+}
+.dropdown:hover .dropdown-content {display: block;}
