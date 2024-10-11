@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+.blokken {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.groen_blok {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+.rood_blok {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.zwart_blok {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+.blauw_blok {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
