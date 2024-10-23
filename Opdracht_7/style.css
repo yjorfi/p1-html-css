@@ -1,6 +1,33 @@
-h1 {color: white;
+.titel_1 {color: white;
     background-color: #ea4d4b;
-margin: auto;
-flex-wrap: wrap; 
-
+padding: 1%;
+width: 100%;
+position: fixed;
+top: -4%;
+left: 0%;
+}
+.titel_2 
+{color: rgb(0, 0, 0);
+    background-color: #f9ca22;
+padding: 3%;
+width: 100%;
+top: 12%;
+position: fixed;
+left: 0%;
+}
+.titel_3 {color: rgb(0, 0, 0);
+    background-color: #f0922b    ;
+padding: 3%;
+width: 100%;
+position: fixed;
+left: 0%;
+top: 42%;
+}
+.titel_4 {color: rgb(0, 0, 0);
+    background-color: #69b04c   ;
+padding: 3%;
+width: 100%;
+position: fixed;
+top: 70%;
+left: 0%;
 }
