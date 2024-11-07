@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    background-color: #e74c3c;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 49.5px;
+
+  }
+  
+  .geel {
+    background-color: #f1c40f;
+    padding: 49.4px;
+
+  }
+  
+  .oranje {
+    background-color: #e67e22;
+    padding: 49.4px;
+
+
+  }
+  
+  .groen {
+    background-color: #27ae60;
+    padding: 49.4px;
+
+
+  }
+  
+  .titel {
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+  
+  
+  @media (max-width: 576px) {
+    .logo {
+        background-color: #686de0;
+        color: white;
+    }
+    .geel {
+        background-color: #7ed6df;
+        color: white;
+    }
+    .oranje {
+        background-color: #e056fd;
+        color: white;
+    }
+    .groen {
+        background-color: #30336a;
+        color: white;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .logo {
+        background-color: #FF6B81;
+        color: white;
+    }
+    .geel {
+        background-color: #FE4657;
+        color: white;
+    }
+    .oranje {
+        background-color: #5352EC;
+        color: white;
+    }
+    .groen {
+        background-color: #3742F9;
+        color: white;
+    }
+}
+    
