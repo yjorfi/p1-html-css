@@ -57,6 +57,15 @@
         background-color: #30336a;
         color: white;
     }
+    .blok {
+      display: block;
+      background-color: white;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      right: 5%;
+      top: 9%;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -64,6 +73,7 @@
         background-color: #FF6B81;
         color: white;
     }
+
     .geel {
         background-color: #FE4657;
         color: white;
@@ -76,5 +86,6 @@
         background-color: #3742F9;
         color: white;
     }
+    
 }
     
